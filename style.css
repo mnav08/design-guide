@@ -1,0 +1,110 @@
+body {
+  background-color: #d7dddd;
+  box-sizing: border-box;
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-decoration: underline;
+}
+
+/* Nav links styles */
+nav ul {
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+nav a {
+  color: black;
+  cursor: pointer;
+}
+
+/* Container styles */
+.container {
+  border: 2px solid #9aa78f;
+  padding: 1rem;
+  background-color: #f3eee7;
+  margin-bottom: 2rem;
+}
+
+/*colors containers */
+div#charcoal,
+div#deep-blue,
+div#peach,
+div#sage,
+div#white {
+  display: inline-block;
+  width: 30%;
+  height: fit-content;
+  text-align: center;
+  margin: 1rem auto;
+  border: 2px solid #000b0e;
+}
+/* color backgrounds */
+div#charcoal {
+  background-color: #000b0e;
+  color: azure;
+}
+div#deep-blue {
+  background-color: #1e2e32;
+  color: azure;
+}
+div#peach {
+  background-color: #c06a4c;
+  color: azure;
+}
+div#sage {
+  background-color: #9aa78f;
+  color: azure;
+}
+div#white {
+  background-color: #f3eee7;
+  border: 2px solid #000b0e;
+}
+
+/* FONTS STYLES */
+
+div#montserrat {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+div#roboto {
+  font-family: Roboto Mono, monospace;
+}
+div#sans {
+  font-family: DM Sans, sans-serif;
+}
+
+/*P elements font styles */
+p.bold {
+  font-weight: 800;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+/* TEXT STYLES */
+p.main-h {
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: Montserrat;
+}
+p.sub-h {
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: DM Sans;
+}
+
+p.p-text {
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: DM Sans;
+}
