@@ -40,7 +40,8 @@ nav a:hover {
 }
 
 nav a:active {
-  margin-top: 50px;
+  display: inline-block;
+  margin-top: 5px;
   color: black;
   box-shadow: 0px 1px;
 }
