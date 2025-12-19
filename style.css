@@ -2,12 +2,13 @@ body {
   background-color: #d7dddd;
   box-sizing: border-box;
   padding: 10px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Montserrat, Verdana, sans-serif;
 }
 
 h1 {
+  color: #1e2e32;
   text-align: center;
+  letter-spacing: 1px;
 }
 h2 {
   text-decoration: underline;
@@ -23,8 +24,17 @@ nav ul li {
 }
 
 nav a {
-  color: black;
+  background-color: #c06a4c;
+  color: #f3eee7;
   cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 100px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+nav a:hover {
+  background-color: #9aa78f;
 }
 
 /* Container styles */
